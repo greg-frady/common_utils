@@ -10,7 +10,7 @@ package com.binaryapothecary.common_utils.web;
  */
 public enum HttpStatusCode {
     UNKNOWN(-1, "Unknown"),
-    
+
     // 100s
     CONTINUE(100, "Continue"),
     SWITCHING_PROTOCOLS(101, "Switching Protocols"),
@@ -59,7 +59,6 @@ public enum HttpStatusCode {
     RANGE_NOT_SATISFIABLE(416, "Range Not Satisfiable"),
     EXPECTATION_FAILED(417, "Expectation Failed"),
     IM_A_TEAPOT(418, "I'm a teapot"),
-    TEAPOT(418, "I'm a teapot"),
     MISDIRECTED_REQUEST(421, "Misdirected Request"),
     UNPROCESSABLE_ENTITY(422, "Unprocessable Entity"),
     LOCKED(423, "Locked"),
@@ -68,7 +67,6 @@ public enum HttpStatusCode {
     PRECONDITION_REQUIRED(428, "Precondition Required"),
     TOO_MANY_REQUESTS(429, "Too Many Requests"),
     REQUEST_HEADER_FIELDS_TOO_LARGE(431, "Request Header Fields Too Large"),
-    UNAVAILABLE_FOR_LEGAL_REASONS(451, "Unavailable For Legal Reasons"),
     FAHRENHEIT_451(451, "Unavailable For Legal Reasons"),
 
     // 500s
